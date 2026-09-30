@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, #4A90E2, #50E3C2);
+            padding: 30px 20px 20px;
+            color: white;
+        }
+
+        .profile-img-container {
+            width: 130px;
+            height: 130px;
+            margin: 0 auto 15px;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .profile-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-header h2 {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .card-header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .card-body {
+            padding: 25px 20px;
+            text-align: left;
+        }
+
+        .info-group {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #eeeeee;
+            font-size: 14px;
+        }
+
+        .info-group:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #555555;
+            width: 35%;
+        }
+
+        .value {
+            color: #333333;
+            width: 65%;
+            word-wrap: break-word;
+        }
+
+        .card-footer {
+            background-color: #fafafa;
+            padding: 15px;
+            text-align: center;
+            border-top: 1px solid #eeeeee;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 8px;
+            color: #4A90E2;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Header & Foto -->
+        <div class="card-header">
+            <div class="profile-img-container">
+                <!-- Ganti nama file foto.jpg dengan nama file foto Anda -->
+                <img src="foto.jpg" alt="Foto Profile">
+            </div>
+            <h2>Tari Okta Elricka </h2>
+            <p>Pelajar </p>
+        </div>
+
+        <!-- Detail Biodata -->
+        <div class="card-body">
+            <div class="info-group">
+                <span class="label">TTL</span>
+                <span class="value">: Bandung, 28 Oktober 2010</span>
+            </div>
+            <div class="info-group">
+                <span class="label">Jenis Kelamin</span>
+                <span class="value">: Perempuan</span>
+            </div>
+            <div class="info-group">
+                <span class="label">Agama</span>
+                <span class="value">: Islam </span>
+            </div>
+            <div class="info-group">
+                <span class="label">Alamat</span>
+                <span class="value">:jln.curug dago </span>
+            </div>
+            <div class="info-group">
+                <span class="label">Email</span>
+                <span class="value">: - </span>
+            </div>
+            <div class="info-group">
+                <span class="label">nomor hp?? ada deh </span>
+                <span class="value">: - </span>
+            </div>
+            <div class="info-group">
+                <span class="label">Hobi</span>
+                <span class="value">: memasak, Mendengarkan musik, menonton film </span>
+            </div>
+        </div>
+
+        <!-- Footer / Media Sosial -->
+        <div class="card-footer">
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank">Instagram</a> | 
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
